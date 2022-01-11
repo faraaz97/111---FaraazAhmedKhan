@@ -1,0 +1,133 @@
+body{
+    text-align: center;
+    margin-top: 100px;
+    background: rgba(252, 2, 2, 0.671);
+}
+h1{
+    
+    margin-bottom: 20px;
+	border: 5px solid black;
+	background-color: blanchedalmond;
+	
+	
+}
+.navbar{
+    background: lightblue; 
+}
+.axis-form{
+    
+    align-content: center;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+    background: rgb(230, 6, 73); 
+}
+
+.log.pan.pin{
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    padding: auto;
+}
+.log-form.pan-form.pin-form{
+    width: 400px;
+    height: 500px;
+    padding: 35px;
+}
+.log-form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.pan-form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.pin-form input{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.log-form input[type="text"],input[type="password"]{
+    text-align: center;
+    align-content: center;
+    border: none;
+    background:rgba(244, 245, 247, 0.945);
+    outline: none;
+    width: 370px;
+    height: 50px;
+    display: block;
+    color: black;
+	border-radius: 100px;
+}
+.pan-form input[type="number"],input[type="number"]{
+    text-align: center;
+    align-content: center;
+    border: none;
+    background:rgba(244, 245, 247, 0.945);
+    outline: none;
+    width: 370px;
+    height: 60px;
+    display: block;
+    color: black;
+	border-radius: 100px;
+}
+.pin-form input[type="number"],input[type="number"]{
+    text-align: center;
+    align-content: center;
+    border: none;
+    background: rgba(244, 245, 247, 0.945);
+    outline: none;
+    width:360px;
+    height: 60px;
+    display: block;
+    color: black;
+	border-radius: 100px;
+}
+.log-form input[type="submit"]{
+    border: none;
+    background: rgb(212, 107, 58);
+    outline: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    
+}
+.log-form input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgba(66, 134, 197, 0.945);
+    color: white;
+}
+.pan-form input[type="submit"]{
+    border: none;
+    background: rgb(212, 107, 58);
+    outline: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    
+}
+.pan-form input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgba(66, 134, 197, 0.945);
+    color: white;
+}
+.pin-form input[type="submit"]{
+    border: none;
+    background: rgb(212, 107, 58);
+    outline: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    
+}
+.pin-form input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgba(66, 134, 197, 0.945);
+    color: white;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User</title>
+</head>
+<link rel="icon" type="image/x-icon" href="bird.ico"/>
+<body>
+  <form action="">
+      <fieldset>
+          <legend>User Registration</legend>
+          <table>
+              <tr>
+            <td><label for="cname">Enter Company Name: </label></td>
+            <td><input type="text" name="cname" id="cname" required></td>
+        </tr>
+        
+              <tr>
+                  <td><label for="fname">Enter First Name: </label></td>
+                  <td><input type="text" name="fname" id="fname" min="2" max="20" required></td>
+              </tr>
+              <tr>
+                <td><label for="lname">Enter Last Name: </label></td>
+                <td><input type="text" name="lname" id="lname" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Enter your Gender: </label></td>
+                <td>
+                <input type="radio" name="gender" id="gender" value="Male">Male
+                <input type="radio" name="gender" id="gender" value="Female">Female
+                <input type="radio" name="gender" id="gender" value="Other">Other
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="usermail">Enter Email: </label></td>
+                <td><input type="email" name="username" id="username" ></td>
+                <tr>
+                    <td><label for="courl">Enter URL: </label></td>
+                    <td><input type="url" name="courl" id="courl"></td>
+                    <tr>
+                        <td><label for="dt">Enter Date: </label></td>
+                        <td><input type="date" name="dt" id="dt" ></td>
+                        <tr>
+                            <td><label for="t">Enter Time: </label></td>
+                            <td><input type="time" name="t" id="t" ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="dtc">Enter Date and Time: </label></td>
+                            <td><input type="datetime-local" name="dtc" id="dtc" ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="m">Enter Month: </label></td>
+                            <td><input type="month" name="m" id="m" ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="file1">Enter Date and Time: </label></td>
+                            <td><input type="file" name="file1" id="file1" multiple></td>
+                        </tr>
+                        <tr>
+                            <td><label for="clr">Select Color: </label></td>
+                            <td><input type="color" name="clr" id="clr" ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="no1">Enter Number: </label></td>
+                            <td><input type="number" name="no1" id="no1" ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="paymentmethods">Select payment method: </label></td>
+                            <td>
+                            
+                                <input type="checkbox" name="COD" id="paymentmethods">
+                                <label for="COD">Cash on Delivery</label>
+                            
+                            <input type="checkbox" name="DC" id="paymentmethods" value="Debit Card">
+                                <label for="DC">Pay by Debit Card</label>
+                        
+                                
+                            <input type="checkbox" name="CC" id="paymentmethods">
+                                 <label for="CC">Pay by Credit Card</label>
+                                </td>
+                               
+                                 
+                        </tr>
+                        <tr>
+                            <td><label for="lang">Select Language: </label></td>
+                            <td><select name="languages" id="lang">
+                                <optgroup label="Select First Group"> 
+                                   <option value="C">C Programming</option>
+                                   <option value="C++">C++ Programming</option>
+                                   <option value="Java">Java Programming</option>
+                              </optgroup> 
+                              <optgroup label="OS Group">
+                               <option value="Linux">Linux</option>
+                               <option value="Windows">Windows</option>
+                               <option value="Android">Android</option>
+                       
+                              </optgroup>
+                       
+                           </select></td>
+                        </tr>
+                        <tr><td>Meter Element</td>
+                            <td>
+                                <meter id="md" value="2" min="0" max="10">2 out of 10</meter>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="comm">Enter Comments: </label></td>
+                            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <td><button>Submit</button></td>
+                    </tr>
+                </tr>
+            </tr>
+            <p><h1>
+                
+            </h1></p>
+          </table>
+      </fieldset>
+  </form> 
+</body>
+</html>
