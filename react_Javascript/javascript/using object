@@ -1,0 +1,15 @@
+class Student{
+  
+  //used for initialization
+  constructor(rollno,name){
+    this.rollno = rollno;
+    this.name = name;
+  }
+  
+  myIntro(){
+    console.log("Hi, This is "+this.name+ " and my rollno "+this.rollno);
+  }
+}
+
+st1 = new Student(101,"Rajesh");
+st1.myIntro();

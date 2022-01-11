@@ -1,0 +1,39 @@
+arr1 = [10,20,30,40,50,45,67];
+arr2 = [34,23,56,57,89,22,11];
+arr3=[];
+arr4=[];
+finalArr=[];
+function sumOfevenArrays(arr1,...arr)
+{
+ 	result =0;
+ 	for(i of arr1)
+    {
+     if(i % 2 == 0)
+       {
+        arr3.push(i);
+       }
+    }
+for(arg of arr)
+  {
+    for(i of arr2)
+  {
+   if(i%2==0)
+     {
+       arr4.push(i);
+     }
+  }
+ 
+  }
+	len=Math.min(arr3.length,arr4.length)
+  console.log("length= ",len)
+  let count =0;
+ 	while(count<len)
+    {
+      finalArr.push(arr3[count]+arr4[count]);
+      count++;
+    }
+	return finalArr;
+}
+
+
+console.log(sumOfevenArrays(arr1,arr2));

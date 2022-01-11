@@ -1,0 +1,15 @@
+function grade(num){
+  if(num>=90 && num<=100){
+   var A = "Grade A";
+  }
+  else if(num>=80 && num<90){
+   var B = "Grade B";
+  }
+  else if(num>=70 && num<80){
+    var C = "Grade C";
+  }else{
+    var D = "Fail";
+  }
+  return{A,B,C,D}
+}
+console.log(grade(70));
