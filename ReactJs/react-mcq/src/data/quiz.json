@@ -1,0 +1,54 @@
+{
+    "data":[
+        {
+            "question": "1) Which of the following is the correct name of React.js?",
+            "choices":["React","React.js","ReactJS","All of the above"],
+            "answer":"All of the above"
+        },
+        {
+            "question": "2) Which of the following command is used to install create-react-app?",
+            "choices":["npm install -g create-react-app","npm install create-react-app","npm install -f create-react-app","install -g create-react-app"],
+            "answer":"npm install -g create-react-app"
+        },
+        {
+            "question": "3) What of the following is used in React.js to increase performance?",
+            "choices":["Original DOM","Virtual DOM","Both A and B.","None of the above."],
+            "answer":"Virtual DOM"
+        },
+        {
+            "question": "4) A class is a type of function, but instead of using the keyword function to initiate it, which keyword do we use?",
+            "choices":["Constructor","Class","Object","DataObject"],
+            "answer":"Class"
+        },
+        {
+            "question": "5) Which of the following keyword is used to create a class inheritance?",
+            "choices":["Create","Inherits","Extends","This"],
+            "answer":"Extends"
+        },
+        {
+            "question": "6) Which of the following acts as the input of a class-based component?",
+            "choices":["Class","Factory","Render","Props"],
+            "answer":"Props"
+        },
+        {
+            "question": "7) What is the default port where webpack-server runs?",
+            "choices":["3000","8080","3030","6060"],
+            "answer":"8080"
+        },
+        {
+            "question": "8) How many numbers of elements a valid react component can return?",
+            "choices":["1","2","4","5"],
+            "answer":"1"
+        },
+        {
+            "question": "9) What is the declarative way to render a dynamic list of components based on values in an array?",
+            "choices":["Using the reduce array method","Using the <Each /> component","Using the Array.map() method","With a for/while loop"],
+            "answer":"Using the Array.map() method"
+        },
+        {
+            "question": "10) What are the two ways to handle data in React?",
+            "choices":["State & Props","Services & Components","State & Services","State & Component"],
+            "answer":"State & Props"
+        }
+    ]
+}
